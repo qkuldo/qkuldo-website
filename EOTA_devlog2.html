@@ -1,0 +1,44 @@
+<html>
+<head>
+  <link rel="stylesheet" href="my_website_color.css" type="text/css"/>
+  <link rel="icon" type="image/x-icon" href="icon.png">
+  <title>Echo Of The Angels Devlog #2</title>
+</head>
+<body>
+  <div class="menu">
+    <a href="blog_menu.html"><button>Back To Wizard's Stories</button></a>
+  </div>
+  <h1>Echo Of The Angels Devlog #2</h1>
+  <div class="firstpart">
+    <p>Hello, and welcome to my blog!<br>I made pots breakable and added screenshake and damage particle effects!<p>
+    <p>Breakable pots were easy, but the others were harder.</p>
+    <h2>Screenshake</h2>
+    <p>So I created a function called screenshake(), with this code:</p>
+    <pre>
+      <code>
+                                                    #this requires that randint is imported from random
+                                                    #In this code, screen is the display surface
+                                                    def screenshake():
+                                                      buffersurf = screen.copy()
+                                                      screen.fill("black")
+                                                      screen.blit(buffersurf, (randint(-10,10),randint(-10,10)))
+      </code>
+    </pre>
+    <p>This code creates a buffersurf variable which uses the screen's copy() method.<br>Then it fills the screen with black to ensure that when the buffersurf surface is blit, that the uncovered parts of the screen is black.<br>Then, it blits the buffersurf to the screen at a random offset between -10 and 10.</p>
+    <h2>Damage Particle</h2>
+    <p>I made some code that appears when the player or an enemy gets hit:</p>
+    <pre>
+      <code>
+                                                  for i in range(damage_done):
+                                                      damage_particle.pos = [sprite.hitbox.center[0]+randint(-20,20),sprite.hitbox.center[0]+randint(-20,20)]
+                                                      damage_particle.spawn_particle()
+                                                  #This uses my custom Particle and Particlegroup classes
+      </code>
+    </pre>
+    <p>The for loop ensures that the more damage done, the more damage particles appear.<br>It sets the location that the particle will spawn in the loop to ensure that the particles will not clump together.<br>Then it spawns a particle. Its velocity y will be 1 and velocity x 0. Which makes a particle that slowly goes down.</p>
+    <p>This is the particle design that I use.</p>
+    <img src="EOTA_dmgparticle.png" width="100" height="100">
+    <p>That's all!<br>-&lt;/qkuldo&gt;</p>
+  </div>
+</body>
+</html>

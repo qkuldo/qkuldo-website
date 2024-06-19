@@ -48,4 +48,6 @@ button {
   font-family: "Courier New", "Lucida Console", monospace;
   border: None;
   color: orangered;
+  padding: 16px;
+  border-radius: 12px;
 }

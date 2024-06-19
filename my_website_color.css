@@ -1,0 +1,51 @@
+body {
+  background-image: url("bgimg_1.png");
+}
+.firstpart {
+  background-color: rgb(255, 180, 81, 0.5);
+  color:orangered;
+}
+.menu {
+  background-color: rgb(255, 150, 81, 0.75);
+  color:orangered;
+}
+.blogmenu {
+  text-align: center;
+  color: orangered;
+}
+h1 {
+  border-bottom: 3px solid orangered;
+  font-family: "Courier New", "Lucida Console", monospace;
+  text-align: center;
+  font-size: 45;
+  color: orangered;
+}
+h2 {
+  font-family: "Courier New", "Lucida Console", monospace;
+  text-align: center;
+  font-size: 32;
+  color: orangered;
+}
+p {
+  font-family: "Courier New", "Lucida Console", monospace;
+  text-align: center;
+  font-size: 15;
+}
+a {
+  text-decoration: none;
+  font-family: "Courier New", "Lucida Console", monospace;
+  text-align: center;
+  font-size: 15;
+  color: orangered;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  background-color: rgb(255, 180, 81, 0.5);
+  font-family: "Courier New", "Lucida Console", monospace;
+  border: None;
+  color: orangered;
+}

@@ -44,10 +44,19 @@ img {
   margin-right: auto;
 }
 button {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   background-color: rgb(255, 180, 81, 0.5);
   font-family: "Courier New", "Lucida Console", monospace;
   border: None;
   color: orangered;
   padding: 16px;
   border-radius: 12px;
+}
+button:hover {
+  background-color: rgb(255, 180, 81, 0.7);
+  color: orangered;
+  border: None;
+  padding: 16px;
+  border-radius: 12px;
+  font-family: "Courier New", "Lucida Console", monospace;
 }

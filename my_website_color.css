@@ -1,5 +1,6 @@
 body {
   background-image: url("bgimg_1.png");
+  background-repeat: no-repeat;
 }
 .firstpart {
   background-color: rgb(255, 180, 81, 0.5);

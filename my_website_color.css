@@ -3,16 +3,13 @@ body {
 }
 .firstpart {
   background-color: rgb(255, 180, 81, 0.5);
-  color:orangered;
 }
 .menu {
   background-color: rgb(255, 150, 81, 0.75);
-  color:orangered;
 }
 .blogmenu {
   background-color: rgb(255, 150, 81, 0.5);
   text-align: center;
-  color: orangered;
 }
 h1 {
   border-bottom: 3px solid orangered;
@@ -31,13 +28,13 @@ p {
   font-family: "Courier New", "Lucida Console", monospace;
   text-align: center;
   font-size: 15;
+  color: orangered;
 }
 a {
-  text-decoration: none;
   font-family: "Courier New", "Lucida Console", monospace;
   text-align: center;
   font-size: 15;
-  color: orangered;
+  color: red;
 }
 img {
   display: block;
@@ -45,7 +42,6 @@ img {
   margin-right: auto;
 }
 button {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   background-color: rgb(255, 180, 81, 0.5);
   font-family: "Courier New", "Lucida Console", monospace;
   border: None;

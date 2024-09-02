@@ -12,29 +12,29 @@ body {
   text-align: center;
 }
 h1 {
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid orangered;
   font-family: "Courier New", "Lucida Console", monospace;
   text-align: center;
   font-size: 45;
-  color: red;
+  color: rgb(175,70,0,1.0);
 }
 h2 {
   font-family: "Courier New", "Lucida Console", monospace;
   text-align: center;
   font-size: 32;
-  color: red;
+  color: rgb(175,70,0,1.0);
 }
 p {
   font-family: "Courier New", "Lucida Console", monospace;
   text-align: center;
   font-size: 15;
-  color: red;
+  color: rgb(175,70,0,1.0);
 }
 a {
   font-family: "Courier New", "Lucida Console", monospace;
   text-align: center;
   font-size: 15;
-  color: red;
+  color: rgb(175,70,0,1.0);
 }
 img {
   display: block;
@@ -45,13 +45,13 @@ button {
   background-color: rgb(255, 180, 81, 0.5);
   font-family: "Courier New", "Lucida Console", monospace;
   border: None;
-  color: red;
+  color: rgb(175,70,0,1.0);
   padding: 16px;
   border-radius: 12px;
 }
 button:hover {
   background-color: rgb(255, 180, 81, 0.7);
-  color: red;
+  color: rgb(175,70,0,1.0);
   border: None;
   padding: 16px;
   border-radius: 12px;
